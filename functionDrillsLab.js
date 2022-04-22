@@ -14,7 +14,7 @@
 function helloWorld(){
   console.log(`Hello, World!`)
 }
-helloWorld
+helloWorld();
 
 ////////////////// PROBLEM 2 ////////////////////
 
