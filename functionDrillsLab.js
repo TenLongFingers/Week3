@@ -68,10 +68,10 @@ greeting('Chris');
 */
 
 const compareNums = (num1, num2) => {
-   return Math.floor(num1, num2)
+  return Math.floor(num1, num2);
 }
 
-console.log(compareNums(7,4));
+console.log(compareNums(2,18))
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -82,7 +82,12 @@ console.log(compareNums(7,4));
   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
 */
 
-//CODE HERE
+function add (num1, num2){
+  num1 = parseInt(num1)
+  num2 = parseInt(num2)
+  return Math.sum(num1,num2);
+}
+console.log(add(4,8));
 
 
 ////////////////// PROBLEM 7 ////////////////////
