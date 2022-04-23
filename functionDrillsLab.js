@@ -49,8 +49,12 @@ printName(`Emma`)
   Make sure to call your function and pass in an argument.
 */
 
-//CODE HERE
+function greeting(name){
+  let name = ``
+  return(`Hello, ${name}!`);
+}
 
+greeting(Chris)
 
 ////////////////// PROBLEM 5 ////////////////////
 
