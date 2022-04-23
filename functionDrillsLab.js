@@ -67,7 +67,14 @@ greeting('Chris');
     Brownie points if you use a ternary statement (only spend significant time on this if you have wiggle room)
 */
 
-//CODE HERE
+const compareNums = (num1, num2) => {
+  if (num1 = num2){
+   return `The numbers are equal.`
+  }
+  else Math.floor(num1, num2)
+}
+
+compareNums(7,4);
 
 
 ////////////////// PROBLEM 6 ////////////////////
