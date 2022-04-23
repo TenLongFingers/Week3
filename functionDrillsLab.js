@@ -68,13 +68,10 @@ greeting('Chris');
 */
 
 const compareNums = (num1, num2) => {
-  if (num1 = num2){
-   return(`The numbers are equal.`)
-  }
-  else return Math.floor(num1, num2)
+   return Math.floor(num1, num2)
 }
 
-compareNums(7,4);
+console.log(compareNums(7,4));
 
 
 ////////////////// PROBLEM 6 ////////////////////
