@@ -23,7 +23,6 @@ helloWorld();
 */
 
 const jsNinja = () => console.log(`I am a JavaScript ninja!`);
-jsNinja();
 
 
 ////////////////// PROBLEM 3 ////////////////////
@@ -36,7 +35,7 @@ jsNinja();
 function printName(name){
   console.log(name);
 }
-printName(Emma)
+printName(`Emma`)
 
 
 ////////////////// PROBLEM 4 ////////////////////
