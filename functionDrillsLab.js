@@ -50,11 +50,11 @@ printName(`Emma`)
 */
 
 function greeting(name){
-  let name = ``
-  return(`Hello, ${name}!`);
+  name = String(name)
+  console.log(`Hello, ${name}`);
 }
 
-greeting(Chris)
+greeting('Chris');
 
 ////////////////// PROBLEM 5 ////////////////////
 
