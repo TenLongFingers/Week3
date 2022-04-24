@@ -117,8 +117,6 @@ const exclaimTwo = str => {
 }
 
 // arrow
-// declaration
-// expression
 
 /*
   Rewrite exclaimTwo to be a single line.
@@ -127,7 +125,9 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
+const exclaimThree = str => str.toUpperCase() + `!!!`
 
+console.log(exclaimThree(`cool`));
 
 ////////////////// PROBLEM 9 ////////////////////
 
