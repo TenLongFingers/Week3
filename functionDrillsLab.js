@@ -154,17 +154,19 @@ function exclaimFour(str) {
 */
 
 function nameCheck(nameParam){
-  if(nameParam = `Steven`){
+  if(nameParam === `Steven`){
   return (`What is up, Steven?`);
   }
-  if (nameParam = `Bryan`){
+  if (nameParam === `Bryan`){
   return (`Hey, Bryan!`);
   } else {
     return (`Cool name, ${nameParam}!`);
   }
 }
 
-console.log(nameCheck(`Chris`));
+nameGreeting = nameCheck(`Emma`);
+
+console.log(nameGreeting);
 
 
 
