@@ -203,7 +203,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Call the function, passing in the `namesArr` array (above).
 */
 
-//CODE HERE
+function printAllNames(anyArr){
+  for (let i = 0; i < anyArr.length; i++) {
+    console.log(anyArr[i]);
+  }
+}
+
+printAllNames(namesArr);
 
 
 ////////////////// PROBLEM 13 ////////////////////
