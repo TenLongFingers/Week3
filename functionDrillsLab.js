@@ -140,9 +140,8 @@ function exclaimFour(str) {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
 // declaration
-// expression
+
 
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -154,7 +153,19 @@ function exclaimFour(str) {
   Create a variable called 'nameGreeting' and set it equal to your function invoked (called) passing in an argument.
 */
 
-//CODE HERE
+function nameCheck(nameParam){
+  if(nameParam = `Steven`){
+  return (`What is up, Steven?`);
+  }
+  if (nameParam = `Bryan`){
+  return (`Hey, Bryan!`);
+  } else {
+    return (`Cool name, ${nameParam}!`);
+  }
+}
+
+console.log(nameCheck(`Chris`));
+
 
 
 ////////////////// PROBLEM 11 ////////////////////
