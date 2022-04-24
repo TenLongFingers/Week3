@@ -180,7 +180,19 @@ console.log(nameGreeting);
   Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
 */
 
-//CODE HERE
+const colorRating = function faveColorFinder(color){
+  if(color === `red`){
+    return (`Red is a great color!`)
+  }
+  if(color === `green`){
+  return (`Green is a solid favorite color.`)
+  }
+  if(color === `black`){
+    return(`So trendy!`)
+  } else { return(`You need to reevaluate your favorite color choice...`)
+  }
+}
+console.log(colorRating(`blue`))
 
 
 ////////////////// PROBLEM 12 ////////////////////
