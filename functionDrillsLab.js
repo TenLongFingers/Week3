@@ -87,7 +87,7 @@ function add (num1, num2){
   num2 = parseInt(num2)
   return num1 + num2
 }
-console.log(add(4,8));
+console.log(add('7lbs',8));
 
 
 ////////////////// PROBLEM 7 ////////////////////
@@ -101,9 +101,7 @@ const exclaim = function(str) {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
-// declaration
-// expression
+//expression (If I uncomment it, I have a hard time running my code to test if things are working!)
 
 
 
