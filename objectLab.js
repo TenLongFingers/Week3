@@ -19,7 +19,12 @@ const me = {
 //name (a string), color (a string), age (a number),
 //and goodBoy/goodGirl (a boolean).
 
-//Code here
+const dog = {
+  name:`Tess`,
+  color: `yellow`,
+  age: 5,
+  goodGirl:true,
+};
 
 
 
