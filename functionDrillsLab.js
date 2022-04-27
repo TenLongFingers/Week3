@@ -241,7 +241,9 @@ console.log(oddChecker);
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
+const bestMovie = (movieParam) => `${movieParam} is the best movie ever!`;
 
+console.log(bestMovie(`Aladdin`));
 
 
 ////////////////// PROBLEM 15 ////////////////////
