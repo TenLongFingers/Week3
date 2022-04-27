@@ -128,18 +128,6 @@ function totalPopulation(obj){
   return utah + california + texas + arizona;
 }
 
-const propertyValueTest = {
-  utah: 5,
-  california: 7,
-  texas: 4,
-  arizona: 3,
-}
-
-const propertyValueFunc = totalPopulation(propertyValueTest);
-
-console.log(propertyValueFunc);
-
-
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
 /*
@@ -150,7 +138,18 @@ console.log(propertyValueFunc);
   Push these new variables to an array and return the array. 
 */
 
-//Code Here
+function ingredients(obj) {
+  const macroArr = []
+  let {carb, fat, protein} = obj
+  macroArr.push(carb,fat,protein);
+  console.log(macroArr);
+}
+const fish = {
+  carb: 1,
+  fat: 4,
+  protein: 2,
+}
+ingredients(fish);
 
 
 
