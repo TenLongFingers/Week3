@@ -125,7 +125,7 @@ function greeting( obj ) {
 
 function totalPopulation(obj){
   let {utah, california, texas, arizona} = obj
-  return sum(obj);
+  return utah + california + texas + arizona;
 }
 
 const propertyValueTest = {
