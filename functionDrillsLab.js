@@ -296,7 +296,9 @@ let sampleString = "Hi, my name is Kylo."
   Invoke the function, passing in the sampleString (above).
 */
 
-//CODE HERE
+const sampleStringFunc = (str) => console.log(str.toUpperCase());
+
+sampleStringFunc(sampleString);
 
 
 ////////////////// PROBLEM 18 ////////////////////
