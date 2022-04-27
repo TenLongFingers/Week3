@@ -220,7 +220,15 @@ printAllNames(namesArr);
   Outside the function, create a variable called `oddChecker` and set it equal to your function invoked, making sure to pass in an argument.
 */
 
-//CODE HERE
+function thatsOdd (num){ 
+  if(num % 2 === 0){
+    return `That's not odd!`
+  } else return `That is odd indeed!`
+}
+
+const oddChecker = thatsOdd(2);
+
+console.log(oddChecker);
 
 
 ////////////////// PROBLEM 14 ////////////////////
@@ -233,7 +241,7 @@ printAllNames(namesArr);
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
+
 
 
 ////////////////// PROBLEM 15 ////////////////////
