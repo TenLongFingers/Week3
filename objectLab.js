@@ -123,8 +123,21 @@ function greeting( obj ) {
   Sum up the values and return the total number.
 */
 
-//Code Here
+function totalPopulation(obj){
+  let {utah, california, texas, arizona} = obj
+  return sum(obj);
+}
 
+const propertyValueTest = {
+  utah: 5,
+  california: 7,
+  texas: 4,
+  arizona: 3,
+}
+
+const propertyValueFunc = totalPopulation(propertyValueTest);
+
+console.log(propertyValueFunc);
 
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
