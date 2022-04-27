@@ -48,14 +48,22 @@ console.log(dog[`name`]);
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+const favoriteThings = {
+  band : `Panic! at the Disco`,
+  food : `grilled salmon`,
+  person: `Emma`,
+  book: `"All Things New," by Fiona and Terryl Givens`,
+  movie: `Encanto`,
+  holiday: `Mabon`,
+};
 
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
 */
 
-//Code here
+favoriteThings.car = `ten-seater van`;
+favoriteThings.show = `Community`
 
 
 /*
@@ -63,7 +71,9 @@ console.log(dog[`name`]);
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'. (If they were either of those things already, change them to something else.)
 */
 
-//Code here
+favoriteThings.food = `chicken nuggets`
+favoriteThings.book = `Harry Potter`
+
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
@@ -81,7 +91,10 @@ var carDetails = {
   Use object destructuring to save the property values from the object carDetails into new variables. 
 */
 
-//Code Here
+let {color} = carDetails
+let {make} = carDetails
+let {model} = carDetails
+let {year} = carDetails
 
 
 
