@@ -174,7 +174,7 @@ user.name = `Bryan G. Smith`
   Using the user object above, delete the users age off of the object.
 */
 
-//Code Here
+delete user.age
 
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
@@ -273,6 +273,8 @@ const colors = {
 //do not edit this object
 
 
+const colorsCopy = {...colors}
+console.log(colors)
 
 
 
