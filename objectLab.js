@@ -142,14 +142,9 @@ function ingredients(obj) {
   const macroArr = []
   let {carb, fat, protein} = obj
   macroArr.push(carb,fat,protein);
-  console.log(macroArr);
+  return macroArr;
 }
-const fish = {
-  carb: 1,
-  fat: 4,
-  protein: 2,
-}
-ingredients(fish);
+
 
 
 
@@ -171,8 +166,8 @@ var user = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
-
+user.email = `bryan.smith@devmounta.in`
+user.name = `Bryan G. Smith`
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
@@ -265,7 +260,8 @@ var user = {
 /*
   Use the spread operator to create a copy of the colors object below.
   Store the copy in a variable called colorsCopy.
-  Note: We did not cover the spread operator in class. We do not expect you to know how to use it. Challenge yourself by going online and researching what the spread operator is and how to use it.
+  Note: We did not cover the spread operator in class. We do not expect you to know how to use it. 
+  Challenge yourself by going online and researching what the spread operator is and how to use it.
 */
 
 //do not edit this object
@@ -276,7 +272,7 @@ const colors = {
 }
 //do not edit this object
 
-//Code Here 
+
 
 
 
