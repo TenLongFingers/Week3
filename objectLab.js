@@ -218,7 +218,7 @@ class Wizard{
   } 
 }
 
-new Wizard = allura (`Allura`, 204, `Fireball`);
+const allura = new Wizard (`Allura`, 204, `Fireball`);
 
 allura.castSpell();
 
