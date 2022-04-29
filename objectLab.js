@@ -247,8 +247,27 @@ allura.castSpell();
     to be newPrice.
 */
 
-//Code Here
+class Phone{
+  constructor (brand,model,storage,color,price){
+    this.brand = brand;
+    this.model = model;
+    this.storage = storage;
+    this.color = color;
+    this.price = price;
+    this.sold = false;
+  }
+ sell(){
+   this.sold = true
+   console.log(`${brand} ${model} has been sold.`)
+ }
+ changePrice(newPrice){
+  this.price = newPrice
+ }
+}
 
+let razChoc = new Phone(`Motorola`,`RAZR`,128,`light blue`,299,);
+
+razChoc.sell();
   
 /*
     Next make three new phone instances using your class.
