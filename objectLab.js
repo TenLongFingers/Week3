@@ -258,37 +258,34 @@ class Phone{
   }
  sell(){
    this.sold = true
-   console.log(`${brand} ${model} has been sold.`)
+   console.log(`${this.brand} ${this.model} has been sold.`)
  }
  changePrice(newPrice){
   this.price = newPrice
  }
 }
+/*
+Next make three new phone instances using your class.
+Send in values of your choice. They should match these data types:
+- brand: string
+- model: string
+- storage: number
+- color: string
+- price: number
+*/
 
 let razChoc = new Phone(`Motorola`,`RAZR`,128,`light blue`,299,);
 
-razChoc.sell();
-  
-/*
-    Next make three new phone instances using your class.
-    Send in values of your choice. They should match these data types:
-    - brand: string
-    - model: string
-    - storage: number
-    - color: string
-    - price: number
-*/
-
-//Code Here
-
 /* 
-  Call the changePrice function on one of your phones, 
-  don't forget to pass in a new price 
+Call the changePrice function on one of your phones, 
+don't forget to pass in a new price 
 
-  Then console.log that object to see the price change
+Then console.log that object to see the price change
 */ 
 
-//Code Here 
+//Motorola is having a sale, 20% off!
+razChoc.changePrice(299*.8);
+console.log(razChoc.price)
 
 
 /*
@@ -297,8 +294,8 @@ razChoc.sell();
   Print the value of that phone's sell property to make sure it's been changed to true
 */
 
-//Code Here 
-
+razChoc.sell();
+console.log(razChoc.sold);
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
