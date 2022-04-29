@@ -186,9 +186,9 @@ delete user.age
 
 class Cat {
   constructor(name, age, color){
-    this.name = name
-    this.age = age
-    this.color = color
+    this.name = name;
+    this.age = age;
+    this.color = color;
   }
 }
 
@@ -206,7 +206,23 @@ console.log(Mione.name);
   Call the castSpell function on the instance of your wizard.
 */
 
-//Code here
+class Wizard{
+  constructor(name,age,favoriteSpell){
+  this.name = name;
+  this.age = age;
+  this.favoriteSpell = favoriteSpell;
+  }
+
+  castSpell(){
+    console.log(`${this.name} has cast ${this.favoriteSpell}!`)
+  } 
+}
+
+new Wizard = allura (`Allura`, 204, `Fireball`);
+
+allura.castSpell();
+
+
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
