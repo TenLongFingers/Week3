@@ -184,7 +184,17 @@ delete user.age
   Print the name of your cat instance using dot notation.
 */
 
-//Code here
+class Cat {
+  constructor(name, age, color){
+    this.name = name
+    this.age = age
+    this.color = color
+  }
+}
+
+let Mione = new Cat(`Mione`, 4, `orange and white`);
+
+console.log(Mione.name);
 
 
 
@@ -274,7 +284,6 @@ const colors = {
 
 
 const colorsCopy = {...colors}
-console.log(colors)
 
 
 
